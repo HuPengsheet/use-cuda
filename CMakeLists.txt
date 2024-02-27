@@ -17,5 +17,6 @@ if(EASTNN_USE_CUDA)
 endif()
 
 add_executable(01_gemm_naive src/gemm/01_gemm_naive.cu)
-
+add_executable(02_gemm_sharemem src/gemm/02_gemm_sharemem.cu)
+add_executable(03_gemm src/gemm/03_gemm.cu)
 #add_subdirectory(example)
