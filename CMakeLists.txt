@@ -19,6 +19,7 @@ add_executable(01_add src/add/01_add.cu)
 add_executable(02_add src/add/02_add.cu)
 
 add_executable(01_reduce src/reduce/01_reduce.cu)
+add_executable(03_reduce src/reduce/03_reduce.cu)
 
 
 add_executable(01_gemm_naive src/gemm/01_gemm_naive.cu)
